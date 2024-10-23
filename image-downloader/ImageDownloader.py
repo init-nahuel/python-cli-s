@@ -31,7 +31,7 @@ class ImageDownloader:
             Optional[bytes]: The image content with the watermark
         """
 
-        json = json = {
+        json = {
             "mainImageUrl": img_url,
             "markImageUrl": watermark_url,
             "opacity": 1.0,
